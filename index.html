@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Isaac Choi's 15th Birthday Cake</title>
+  <title>Isaac Choi's Birthday Cake</title>
   <style>
     body {
       margin: 0;
@@ -158,7 +158,7 @@
   </style>
 </head>
 <body onclick="buildCake()">
-  <h1>🎂 Tap to Build Isaac's 15-Layer Cake! 🎉</h1>
+  <h1>🎂 Tap to Build Isaac's B-Day Cake! 🎉</h1>
   <div class="cake">
     <div class="layer layer1" id="layer1"></div>
     <div class="layer layer2" id="layer2"></div>
@@ -172,7 +172,7 @@
       () => { document.getElementById('layer2').classList.add('visible'); updateMessage('Step 3: Add the frosting top!'); },
       () => { document.getElementById('topLayer').classList.add('visible'); updateMessage('Step 4: Add candles!'); },
       () => { addCandles(); updateMessage('Final Step: Light the candles!'); },
-      () => { lightCandles(); updateMessage("🎉 Happy 15th Birthday Isaac Choi! 🎉"); }
+      () => { lightCandles(); updateMessage("🎉 Happy Birthday Isaac Choi! 🎉"); }
     ];
 
     function updateMessage(text) {
